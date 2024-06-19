@@ -1,8 +1,8 @@
 import { SafeAreaView, ScrollView} from "react-native";
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomePage from "./Components/Screen Two/HomePage";
-import LoginPage from "./Components/Screen Two/LoginPage";
+import HomePage from "./Components/HomePage";
+import LoginPage from "./Components/LoginPage";
 
 const Stack = createStackNavigator();
 
